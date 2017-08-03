@@ -3,7 +3,7 @@ import React from 'react'
 export default (props) => {
 
   const handleOnClick = () => {
-    props.store.dispatch({type: 'INCREASE COUNT' })
+    props.store.dispatch({type: 'INCREASE_COUNT' })
   }
 
 
